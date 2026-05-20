@@ -20,7 +20,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install pytest requests
+        pip install pytest requests groq python-dotenv
 
     - name: Run tests
       run: |
